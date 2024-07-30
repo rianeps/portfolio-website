@@ -75,4 +75,3 @@ faders.forEach(fader => {
   appearOnScroll.observe(fader);
 });
 
-

@@ -629,6 +629,7 @@ textarea::placeholder {
 }
 #contact-heading1 {
   font-size: 2.5rem;
+  margin: 1rem 0 0.5rem;
   margin-bottom: 0.5rem;
 }
 #contact-heading2{
@@ -642,9 +643,9 @@ p {
 .email-button {
   background-color: #071952;
   color: white;
-  padding: 0.5rem 1rem;
+  padding: 0.75rem 1.5rem;
   text-decoration: none;
-  border-radius: 4px;
+  border-radius: 8px;
   display: inline-flex;
   align-items: center;
   transition: all 0.3s ease;
@@ -679,4 +680,12 @@ p {
 
 .email-button:hover:before {
   left: 100%;
+}
+/* paper airplane */
+.paper-airplane {
+  animation: fly 3s ease-in-out infinite;
+}
+@keyframes fly {
+  0%, 100% { transform: translateY(0) rotate(-10deg); }
+  50% { transform: translateY(-20px) rotate(10deg); }
 }
