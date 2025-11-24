@@ -26,8 +26,9 @@ This repository contains the source code for my personal portfolio website — a
 
 ├── index.html
 ├── /assets
-│ ├── /images
-│ ├── /icons
-│ └── /css
+│   ├── /images
+│   ├── /icons
+│   └── /css
 ├── /scripts
 └── README.md
+
