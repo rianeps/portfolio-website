@@ -24,11 +24,14 @@ This repository contains the source code for my personal portfolio website — a
 
 ## 📁 Folder Structure
 
+```
 ├── index.html
-├── /assets
-│   ├── /images
-│   ├── /icons
-│   └── /css
-├── /scripts
+├── assets
+│   ├── images
+│   ├── icons
+│   └── css
+├── scripts
 └── README.md
+```
+
 
